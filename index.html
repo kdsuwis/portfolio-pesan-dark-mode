@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Kadek</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Halo, saya Kadek Suwis Satria Atmaja</h1>
+        <p>Calon Full Stack Developer</p>
+        <button onclick="toggleDarkMode()">🌙 Ganti Mode</button>
+    </header>
+
+    <section class="profil">
+        <img src="img/foto-profil.jpg" alt="Foto Kadek" class="foto-profil" />
+        <p>Saya sedang belajar membuat halaman web yang interaktif dan profesional.</p>
+    </section>
+
+    <section class="proyek">
+        <h2>Proyek Saya</h2>
+        <div class="kartu-proyek">
+            <h3>Kalkulator Sederhana</h3>
+            <p>Proyek ini dibuat menggunakan HTML, CSS, dan JavaScript untuk melakukan operasi matematika dasar.</p>
+            <a href="#">Lihat di GitHub</a>
+        </div>
+
+        <div class="kartu-proyek">
+            <h3>Ganti Gambar dari URL</h3>
+            <p>Input URL dan ubah gambar langsung di halaman. Latihan manipulasi DOM dengan JavaScript.</p>
+            <a href="#">Lihat di GitHub</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Kontak: emailkamu@gmail.com</p>
+        <section class="kontak">
+            <h2>Kontak Saya</h2>
+            <input type="text" id="namaKontak" placeholder="Nama Anda" />
+            <br />
+            <textarea id="pesanKontak" placeholder="Tulis pesan..." rows="4"></textarea>
+            <br />
+            <button onclick="kirimPesan()">Kirim</button>
+
+            <div id="hasilPesan"></div>
+        </section>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

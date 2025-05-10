@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+header, footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+h1, h2 {
+  margin: 0.5em 0;
+}
+
+.profil {
+  text-align: center;
+  padding: 2rem;
+  background-color: white;
+}
+
+.foto-profil {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.proyek {
+  padding: 2rem;
+}
+
+.kartu-proyek {
+  background-color: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left: 5px solid #007acc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.kartu-proyek h3 {
+  margin-top: 0;
+}
+
+.kartu-proyek a {
+  color: #007acc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  font-size: 0.9rem;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #1c1c1c;
+  color: #f1f1f1;
+}
+
+.dark-mode header, .dark-mode footer {
+  background-color: #111;
+  color: #f1f1f1;
+}
+
+.dark-mode .kartu-proyek {
+  background-color: #2c2c2c;
+  border-left: 5px solid #66ccff;
+}
+
+.kontak {
+  padding: 2rem;
+  background-color: white;
+  text-align: center;
+}
+
+.kontak input, .kontak textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+#hasilPesan {
+  margin-top: 1rem;
+  font-style: italic;
+  color: green;
+}
+
